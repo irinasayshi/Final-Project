@@ -45,11 +45,11 @@ $(".filter-buttons").click(function(){
 
 // Carousel
 
-$('.carousel').slick({
-  infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 3
-  row: 2;
-});
+// $('.carousel').slick({
+//   infinite: true,
+//   slidesToShow: 3,
+//   slidesToScroll: 3
+//   row: 2;
+// });
 
 });
