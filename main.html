@@ -5,14 +5,123 @@
 	<meta name="description" content="A website to showcase photographs from travels and life.">
 
 	<title>Irina Says Hi</title>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+	<link href="http://fonts.googleapis.com/css?family=Raleway:300|Sorts+Mill+Goudy:italic|Raleway:100" rel="stylesheet" type="text/css">
 
 	<!-- external CSS link -->
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<link href="css/bootstrap.min.css" rel="stylesheet">	
+  	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 
+</head>
+<body id="body">
+	<nav id="nav">
+		<div id="site-name">
+			<h2 id="nav-site-name">Irina Says Hi</h2>
+		</div>
+		<div id="site-logo">
+			<img id="logo" src="images/logo.png" height="50" width="50">
+		</div>
+		<div id="nav-links-about" class="nav-links">
+			<a class="a-links" href="#about">About Me</a>
+		</div>
+		<div id="nav-links-blog" class="nav-links">
+			<a class="a-links" href="#blog">Blog</a>
+		</div>
+		<div id="nav-links-gallery" class="nav-links">
+			<a class="a-links" href="#gallery">Gallery</a>
+		</div>
+	</nav>
+	<img class="screen-size" src="images/glacier.jpg" />
+	 <div class="container" id="gallery">
+        <div class="row">
+	        <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	        	<h1 class="gallery-title"></h1>
+	        </div>
+	        <div align="center">
+	            <div class="filter-buttons filter-buttons-active" id="all-filters" data-filter="all" >All</div>
+	            <div class="filter-buttons travel" data-filter="travel">Travel</div>
+	            <div class="filter-buttons wedding" data-filter="wedding">Wedding and Engagement</div>
+	            <div class="filter-buttons family" data-filter="family">Family</div>
+	            <div class="filter-buttons cities" data-filter="cities">Cities</div>
+	        </div>
+        <br/>
+	       <div class="carousel">
+	            <div class="gallery_product col-lg-4 col-md-3 col-sm-4 col-xs-6 filter travel" data-filter="travel">
+	                <img src="images/horses_iceland.jpg" class="img-responsive">
+	            </div>
+
+	            <div class="gallery_product col-lg-4 col-md-3 col-sm-4 col-xs-6 filter wedding" data-filter="wedding">
+	                <img src="images/horses_iceland.jpg" class="img-responsive">
+	            </div>
+
+	            <div class="gallery_product col-lg-4 col-md-3 col-sm-4 col-xs-6 filter travel" data-filter="travel">
+	                <img src="images/horses_iceland.jpg" class="img-responsive">
+	            </div>
+
+	            <div class="gallery_product col-lg-4 col-md-3 col-sm-4 col-xs-6 filter cities" data-filter="cities">
+	                <img src="images/horses_iceland.jpg" class="img-responsive">
+	            </div>
+
+	            <div class="gallery_product col-lg-4 col-md-3 col-sm-4 col-xs-6 filter family" data-filter="family">
+	                <img src="images/horses_iceland.jpg" class="img-responsive">
+	            </div>
+
+	            <div class="gallery_product col-lg-4 col-md-3 col-sm-4 col-xs-6 filter cities" data-filter="cities">
+	                <img src="images/horses_iceland.jpg" class="img-responsive">
+	            </div>
+
+	            <div class="gallery_product col-lg-4 col-md-3 col-sm-4 col-xs-6 filter family" data-filter="family">
+	                <img src="images/horses_iceland.jpg" class="img-responsive">
+	            </div>
+
+	            <div class="gallery_product col-lg-4 col-md-3 col-sm-4 col-xs-6 filter cities" data-filter="cities">
+	                <img src="images/horses_iceland.jpg" class="img-responsive">
+	            </div>
+
+	            <div class="gallery_product col-lg-4 col-md-3 col-sm-4 col-xs-6 filter cities" data-filter="cities">
+	                <img src="images/horses_iceland.jpg" class="img-responsive">
+	            </div>
+
+	            <div class="gallery_product col-lg-4 col-md-3 col-sm-4 col-xs-6 filter travel" data-filter="travel">
+	                <img src="images/horses_iceland.jpg" class="img-responsive">
+	            </div>
+
+	            <div class="gallery_product col-lg-4 col-md-3 col-sm-4 col-xs-6 filter family" data-filter="family">
+	                <img src="images/horses_iceland.jpg" class="img-responsive">
+	            </div>
+
+	            <div class="gallery_product col-lg-4 col-md-3 col-sm-4 col-xs-6 filter wedding" data-filter="wedding">
+	                <img src="images/horses_iceland.jpg" class="img-responsive">
+	            </div>
+	        </div>
+		</div>
+	</div>
+	<div id="blog">
+		Blog
+	</div>
+	<div id="about">
+	</div>
+	<footer>
+		<div>
+			<form id="form" method="post" action="http://cb.sailthru.com/s/3kn/Demo+List">
+			    <div id="email-signup" ="email">Enter your email to receive updates when new galleries are posted!<br></div>
+			    <input id="email-form" type="text" name="email" placeholder="Your Email"/>
+			    <input type="submit" value="Subscribe" />
+			</form>
+		</div>
+	</footer>
+	<div class="back-to-top"> 
+	</div>
+
+	<!-- SCRIPTS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/smoothscroll.js"></script>
 </body>
 </html>

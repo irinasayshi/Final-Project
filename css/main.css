@@ -1,1 +1,169 @@
-main.css
+/*Misc*/
+
+	#body {
+		font-size: 16px;
+		background-color: #000000;
+		letter-spacing: 0.3em;
+		font-family: Raleway;
+		font-weight: 100;
+		font-style: normal;
+		color: white;
+		height: 100vh;
+	}
+
+	.screen-size {
+		height: 100%;
+		width: 100%;
+}
+
+/*Nav*/
+
+	#nav {
+		height: 100px;
+		width: 100%;
+		padding-top: 25px;
+	}
+
+	#nav-site-name {
+		display: inline-block;
+		float: left;
+		width: 45%;
+		padding-left: 20px;
+		margin-top: 20px;
+	}
+
+	#site-logo {
+		display: inline-block;
+	}
+
+	#logo {
+		position: relative;
+	}
+
+	.nav-links {
+		display: inline-block;
+		text-align: center;
+		margin-right: 1.25em;
+		font-size: 0.750em;
+		float: right;
+		margin-top: 25px;
+	}
+
+	.a-links {
+		text-align: center;
+		text-decoration: none;
+		padding: 5px;
+		color: white;
+	}
+
+	.a-links:hover {
+		text-align: center;
+		border-bottom: 1px solid white;
+		color: white;
+		text-decoration: none;
+	}
+
+	#nav-links-gallery {
+		width: 135px;
+	}
+
+	#nav-links-blog {
+		width: 65px;
+	}
+
+	#nav-links-about {
+		width: 130px;
+	}
+
+	/*Pages*/
+
+	#welcome-section {
+		overflow: hidden;
+		height: 100%;
+		position: relative;
+	}
+
+/*Gallery*/
+
+	#gallery {
+*/		margin: auto;
+	}
+	
+	.filter-buttons { 
+		/*background black, border white, text white*/
+		font-size: 1em;
+		border: 1px solid black;
+		text-align: center;
+		color: black;
+		background-color: white;
+		margin-bottom: 30px;
+		display: inline-block;
+		padding: 10px;
+		letter-spacing: 0.1em;
+	}
+	
+	.filter-buttons:hover { 
+		/*background white, text black*/
+		color: white;
+		border-bottom: 1px solid white;
+		background-color: black;
+	}
+
+	.filter-buttons-active {
+		color: white;
+		border-bottom: 1px solid white;
+		background-color: black;
+	}
+
+	.port-image {
+		width: 100%;
+	}
+
+	.gallery_product {
+		margin-bottom: 30px;
+		display: inline-block;
+	}
+
+	.img-responsive {
+		text-align: center;
+	}
+
+/*Footer*/
+
+	#form {
+		padding: 25px;
+	}
+
+	#email-signup {
+		width: 250px;
+		padding-bottom: 25px;
+	}
+
+/*Scroll to Top Button*/
+
+	.back-to-top {
+		display: none;
+		background: none;
+		margin: 0;
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		width: 50px;
+		height: 60px;
+		margin-right: 15px;
+		margin-bottom: 15px;
+		text-decoration: none;
+		background-image: url("../images/scroll-w.png");
+		background-size: 100%;
+		background-repeat: no-repeat; 
+	}
+
+	.back-to-top:hover {
+		background-image: url("../images/scroll-hover.png");
+		width: 50px;
+		height: 60px;
+	}
+
+	.display-none {
+		display: none;
+	}

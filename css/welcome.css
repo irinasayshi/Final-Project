@@ -1,0 +1,61 @@
+/*Welcome Page*/
+
+body {
+	background: white url('../images/welcome.jpg') no-repeat center fixed; 
+	background-size: cover;
+	font-size: 16px;
+	background-color: #000000;
+	letter-spacing: 0.3em;
+	font-family: Raleway;
+	font-weight: 100;
+	font-style: normal;
+	color: white;
+}
+
+#welcome-screen section {
+	position: fixed;
+	top: 25%;
+	font-size: 2em;
+	text-align: center;
+	width: 100%;
+}
+
+.typing
+{
+	line-height: 60px;
+	letter-spacing: .05em;
+	display: block;
+}
+
+#button {
+	margin-top: 150px;
+}
+
+a {
+	font-size: 1.5em;
+	margin-top: 100px;
+	padding: 20px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	width: 150px;
+}
+
+a:hover {
+	border: 1px solid white;
+}
+
+#cursor {
+	animation: blink;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+ from, to {
+	color: transparent;
+	}
+	50% {
+	color: white;
+	}
+}
