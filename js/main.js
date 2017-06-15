@@ -13,10 +13,9 @@ $(".back-to-top").fadeOut(duration);
 }
 });
  
-$(".back-to-top").click(function(event) {
-event.preventDefault();
-$("html, body").animate({scrollTop: 0}, duration);
-return false;
+$(".back-to-top").click(function() {
+	event.preventDefault();
+	$("html, body").animate({scrollTop: 0}, duration);
 });
 
 // Smooth anchor scroll
@@ -45,11 +44,27 @@ $(".filter-buttons").click(function(){
 
 // Carousel
 
-// $('.carousel').slick({
-//   infinite: true,
-//   slidesToShow: 3,
-//   slidesToScroll: 3
-//   row: 2;
-// });
+	$(".about-picture").slick({
+		infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1
+	});
+
+// 
+
+// Contact form
+
+$(".input-text").on("keyup" ,function() {
+	var input_field = $(this).val();
+	if (input_field != "") {
+		$(this).prev().addClass("label-show");
+	} else {
+		$(this).prev().removeClass("label-show");
+	}
+});
+
+
+
+// end of file
 
 });
