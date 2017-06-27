@@ -211,17 +211,37 @@
 		left: 60%;
 		top: 20%;
 		height: 380px;
+		margin-left: 3%;
 	}
 
 /*Footer*/
 
 	#form {
 		padding: 25px;
+		float: left;
 	}
 
 	#email-signup {
 		width: 250px;
 		padding-bottom: 25px;
+	}
+
+	.footer {
+		float: right;
+		margin-right: 10%;
+		margin-top: 75px;
+	}
+
+	.a-f-links {
+		text-decoration: none;
+	}
+
+	.a-f-links:hover {
+		text-decoration: none;
+	}
+
+	.a-f-links:focus {
+		text-decoration: none;
 	}
 
 /*Scroll to Top Button*/
@@ -270,6 +290,10 @@
 		margin-top: 32px;
 	}
 
+	#email-form {
+		color: black;
+	}
+
 	.input-text { 
 		display: block;
 		width: 100%;
@@ -284,13 +308,12 @@
 
 	.label {
 		color: black;
-/*		position: absolute;
-*/		left: 20px;
+		left: 20px;
 		bottom: 11px;
 		cursor: text;
 		opacity: 0;
 		font-size: .5em;
-		transition: opacity 500ms;
+		transition: opacity .25s ease-in-out;
 	}
 
 	.label-show {
@@ -321,3 +344,6 @@
 	.input-100 {
 		width: 90%;
 	}
+
+/*Hamburger menu*/
+
