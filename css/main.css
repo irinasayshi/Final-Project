@@ -227,9 +227,8 @@
 	}
 
 	.footer {
-		float: right;
-		margin-right: 10%;
-		margin-top: 75px;
+		display: inline-block;
+		margin-bottom: 15px;
 	}
 
 	.a-f-links {
@@ -243,6 +242,10 @@
 	.a-f-links:focus {
 		text-decoration: none;
 	}
+
+	#love {
+		font-family: 'League Script', cursive;
+	}	
 
 /*Scroll to Top Button*/
 
