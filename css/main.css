@@ -4,7 +4,7 @@
 		font-size: 16px;
 		background-color: #000000;
 		letter-spacing: 0.3em;
-		font-family: Raleway;
+		font-family: 'Raleway';
 		font-weight: 100;
 		font-style: normal;
 		color: white;
@@ -74,7 +74,7 @@
 	}
 
 	#nav-links-gallery {
-		width: 135px;
+		width: 80px;
 	}
 
 	#nav-links-contact {
@@ -216,6 +216,15 @@
 
 /*Footer*/
 
+	.parent-center-div { /*center the parent*/
+		text-align: center;
+		width: 100%;
+	}
+
+	.center-div { /*then center the children with margin:auto*/
+		margin: auto;
+	}
+
 	#form {
 		padding: 25px;
 		float: left;
@@ -229,6 +238,7 @@
 	.footer {
 		display: inline-block;
 		margin-bottom: 15px;
+		text-align: center;
 	}
 
 	.a-f-links {
@@ -244,7 +254,9 @@
 	}
 
 	#love {
-		font-family: 'League Script', cursive;
+		font-family: 'League Script';
+		letter-spacing: 0em;
+		padding-top: 50px;
 	}	
 
 /*Scroll to Top Button*/
@@ -350,3 +362,25 @@
 
 /*Hamburger menu*/
 
+
+/*Responsive*/
+
+@media only screen and (max-width: 830px) {
+	#nav-site-name {
+		display: none;
+	}
+
+	#site-logo {
+		margin-left: 50px;
+	}
+}
+
+/*@media only screen and (max-width: 500px) {
+	#nav-site-name {
+		display: none;
+	}
+
+	#site-logo {
+		margin-left: 50px;
+	}
+}*/
