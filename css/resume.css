@@ -1,0 +1,216 @@
+/*Misc*/
+
+	#body {
+		font-size: 16px;
+		background-color: #000000;
+		letter-spacing: 0.3em;
+		font-family: 'Raleway';
+		font-weight: 100;
+		font-style: normal;
+		color: white;
+		height: 100vh;
+	}
+
+	.screen-size {
+		height: 100%;
+		width: 100%;
+	}
+
+	*:focus {
+    	outline: none;
+	}
+
+	* {
+		box-sizing: border-box;
+	}
+
+/*Nav*/
+
+	#nav {
+		height: 50px;
+		width: 100%;
+	}
+
+	#nav-site-name {
+		display: inline-block;
+		float: left;
+		width: 45%;
+		padding-left: 25px;
+		margin-top: 20px;
+		color: #DCE1F2;
+		font-weight: bold;
+	}
+
+	.nav-links {
+		display: inline-block;
+		text-align: center;
+		margin-right: 25px;
+		font-size: 0.750em;
+		margin-top: 25px;
+	}
+
+	.a-links {
+		text-align: center;
+		text-decoration: none;
+		padding: 5px;
+		color: black;
+	}
+
+	.a-links:hover {
+		text-align: center;
+		border-bottom: 1px solid black;
+		color: black;
+		text-decoration: none;
+	}
+
+	#nav-links-return {
+		width: 130px;
+		margin-left: 15px;
+	}
+
+/*Cover Image*/
+
+	#cover-image {
+		height: 500px;
+		background: 
+			linear-gradient(
+				rgba(0, 0, 0, 0.5),
+				rgba(0, 0, 0, 0.5)
+	 		),
+			url(../images/irinagorelik.jpg);
+		background-attachment: fixed; /*parallax scrolling*/
+		background-position: center; /*parallax scrolling*/
+		background-repeat: no-repeat; /*parallax scrolling*/
+		background-size: cover; /*parallax scrolling*/
+		min-height: 70vh;
+		text-align: center;
+	}
+
+	#logo {
+		padding-top: 2%;
+	}
+
+	#name {
+		font-size: 3em;
+		display: flex;
+	    flex-direction: row;
+	    align-items: center;
+	    height: 100%;
+	    text-align: center;
+	    width: 100%;
+	}
+
+	.child-name {
+		width: 100%;
+		opacity: 1;
+	}
+
+/*Resume Header*/
+
+.about-header{
+	height: 100px;
+}
+
+/*Resume Sections*/
+
+	/* left container - #FBFBFB */
+	/*title - #898483 */
+	/*regular text - #B0AEAA */
+	/* numbers, links, name - #F9B930 */
+
+	#body-resume {
+		font-size: 16px;
+		background-color: #FFFFFF;
+		letter-spacing: 0.3em;
+		font-family: 'Raleway';
+		font-weight: 100;
+		font-style: normal;
+		color: #B0AEAA;
+	}
+
+	.table-column-container {
+		overflow: hidden; /*Left and right column are the same height*/
+	}
+
+	.col-inline {
+		display: inline-block;
+		padding: 15px;
+		padding: 50px;
+		margin-bottom: -99999px; /*Left and right column are the same height*/
+		padding-bottom: 99999px; /*Left and right column are the same height*/
+	}
+
+	.remove-margin {
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	
+	.left-content {
+		text-align: center;
+		background-color: #FBFBFB;
+		color: #898483;
+	}
+
+	.right-content {
+		background-color: white;
+	}
+
+/*Footer*/
+
+	.parent-center-div { /*center the parent*/
+		text-align: center;
+		width: 100%;
+		position: absolute;
+	}
+
+	.center-div { /*then center the children with margin:auto*/
+		margin: auto;
+	}
+
+	#form {
+		padding: 25px;
+		float: left;
+	}
+
+	#email-signup {
+		width: 250px;
+		padding-bottom: 25px;
+	}
+
+	.footer {
+		display: inline-block;
+		margin-bottom: 15px;
+		text-align: center;
+	}
+
+	.a-f-links {
+		text-decoration: none;
+	}
+
+	.a-f-links:hover {
+		text-decoration: none;
+	}
+
+	.a-f-links:focus {
+		text-decoration: none;
+	}
+
+	#love {
+		font-family: 'League Script';
+		letter-spacing: 0em;
+		padding-top: 50px;
+	}	
+
+/*Responsive*/
+
+@media only screen and (max-width: 991px) {
+	.col-inline {
+		width: 100%;
+		margin: 0;
+		padding: 50px;
+	}
+
+	.left-content-title {
+		padding-bottom: 15px;
+	}
+}
