@@ -107,9 +107,17 @@
 
 /*Resume Header*/
 
-.about-header{
-	height: 100px;
-}
+	.about-header-container {
+		text-align: center;
+		margin: 25px;
+		height: 120px;
+	}
+
+	.about-header {
+		font-size: 3em;
+		display: none;
+ 		width: 100%; /*Whatever you want*/
+	}
 
 /*Resume Sections*/
 
@@ -167,20 +175,11 @@
 		margin: auto;
 	}
 
-	#form {
-		padding: 25px;
-		float: left;
-	}
-
-	#email-signup {
-		width: 250px;
-		padding-bottom: 25px;
-	}
-
 	.footer {
 		display: inline-block;
 		margin-bottom: 15px;
 		text-align: center;
+		width: 250px;
 	}
 
 	.a-f-links {
